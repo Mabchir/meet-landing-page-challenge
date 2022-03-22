@@ -68,7 +68,7 @@ p {
 
 .button1 {
   width: 193px;
-  background-color: #4d96a9;
+  background-color: var(--turquoise);
 }
 .button1 span {
   color: var(--lightBlue);
@@ -76,4 +76,26 @@ p {
 .button2 {
   width: 129px;
   background-color: #855fb1;
+}
+.section-divider {
+  margin-top: 48px;
+}
+.section-divider .vl {
+  border-left: 1px solid var(--gray);
+  opacity: 0.4;
+  height: 84px;
+  position: relative;
+  left: 50%;
+}
+
+.section-divider .numbered-circle {
+  border: 1px solid var(--gray);
+  opacity: 0.4;
+  border-radius: 50px;
+  position: relative;
+  left: 43.5%;
+  width: 56px;
+  height: 56px;
+  font-size: 16px;
+  padding: 15px;
 }
