@@ -29,6 +29,7 @@ body {
 }
 .bubbleImg {
   display: flex;
+  justify-content: center;
 }
 .users {
   width: 199px;
@@ -40,4 +41,39 @@ h1 {
   font-weight: 900;
   line-height: 2.75rem;
   margin: 48px 55px 24px 55px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.4;
+  margin: 0px 30px 24px 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button1,
+.button2 {
+  border-radius: 29px;
+  padding: 16px 29px 16px 29px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.button1 {
+  width: 193px;
+  background-color: #4d96a9;
+}
+.button1 span {
+  color: var(--lightBlue);
+}
+.button2 {
+  width: 129px;
+  background-color: #855fb1;
 }
