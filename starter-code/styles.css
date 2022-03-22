@@ -20,9 +20,24 @@ body {
   font-family: var(--font);
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .logo {
+  margin: 54px 0px 54px 0px;
+}
+.bubbleImg {
+  display: flex;
+}
+.users {
+  width: 199px;
+  height: 153px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.75rem;
+  margin: 48px 55px 24px 55px;
 }
