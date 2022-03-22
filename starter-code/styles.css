@@ -45,7 +45,7 @@ h1 {
 
 p {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   opacity: 0.4;
   margin: 0px 30px 24px 30px;
@@ -79,9 +79,11 @@ p {
 }
 .section-divider {
   margin-top: 48px;
-  position: absolute;
-  left: 50%;
-  text-align: center;
+  margin-bottom: 64px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-divider .vl {
   border-left: 1px solid var(--gray);
@@ -97,7 +99,50 @@ p {
   height: 56px;
   font-size: 16px;
   padding: 15px;
+}
 
-  position: relative;
-  left: -50%;
+.user-photos img {
+  width: 151px;
+  height: 143px;
+
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.motto {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--turquoise);
+  opacity: 1;
+  margin-top: 50px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin: 30px 45px 24px 45px;
+}
+
+.features {
+  margin: 0px 37px 24px 37px;
+}
+
+.footer {
+  background-image: url("./assets/mobile/image-footer.jpg");
+}
+.footer h2,
+.footer p {
+  color: var(--white);
+  opacity: 1;
+}
+
+.footer .button1 {
+  background-color: var(--darkPurple);
+  background-repeat: no-repeat;
+}
+.footer span {
+  color: var(--lightPurple);
 }
