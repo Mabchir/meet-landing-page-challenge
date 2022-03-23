@@ -40,7 +40,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 2.75rem;
-  margin: 48px 55px 24px 55px;
+  padding: 48px 55px 24px 55px;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
   font-size: 1rem;
   line-height: 26px;
   opacity: 0.4;
-  margin: 0px 30px 24px 30px;
+  padding: 0px 30px 24px 30px;
 }
 
 .buttons {
@@ -129,13 +129,16 @@ h2 {
   font-weight: 900;
   font-size: 2rem;
   line-height: 2.25rem;
-  margin: 30px 45px 24px 45px;
+  padding: 30px 45px 24px 45px;
 }
 
 .features {
-  margin: 0px 37px 24px 37px;
+  padding: 0px 37px 24px 37px;
 }
 
+.secondBreak {
+  display: none;
+}
 .lastPart {
   position: relative;
 }
@@ -163,4 +166,46 @@ h2 {
 }
 .footer span {
   color: var(--lightPurple);
+}
+
+@media screen and (min-width: 800px) {
+  .users {
+    width: 425px;
+    height: auto;
+  }
+  h1 {
+    padding: 72px 250px 24px 250px;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .purpose {
+    padding: 0px 200px 24px 200px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .button1 {
+    margin-right: 16px;
+  }
+  h2 {
+    padding: 30px 250px 24px 250px;
+  }
+
+  .features {
+    padding: 0px 125px 24px 125px;
+  }
+  .firstBreak {
+    display: none;
+  }
+  .secondBreak {
+    display: block;
+  }
+  .footer p {
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 40px;
+  }
 }
