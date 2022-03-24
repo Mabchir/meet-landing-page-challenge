@@ -170,7 +170,7 @@ h2 {
 
 @media screen and (min-width: 800px) {
   .users {
-    width: 425px;
+    width: auto;
     height: auto;
   }
   h1 {
@@ -207,5 +207,38 @@ h2 {
     padding-left: 175px;
     padding-right: 175px;
     padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  .footer h2,
+  .footer p {
+    text-align: left;
+  }
+
+  .footer h2 {
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer p {
+    width: 310px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .user-photos img {
+    width: 255px;
+    height: 242px;
+  }
+  .button1:hover,
+  .button2:hover {
+    background: rgb(255, 255, 255, 0.7);
   }
 }
