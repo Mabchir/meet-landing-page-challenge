@@ -23,7 +23,9 @@ body {
   justify-content: center;
   text-align: center;
 }
-
+main {
+  width: 100%;
+}
 .logo {
   margin: 54px 0px 54px 0px;
 }
@@ -33,7 +35,7 @@ body {
 }
 .users {
   width: 199px;
-  height: 153px;
+  height: auto;
 }
 
 h1 {
@@ -141,6 +143,7 @@ h2 {
 }
 .lastPart {
   position: relative;
+  width: 100%;
 }
 
 .footer {
@@ -214,8 +217,6 @@ h2 {
   .footer {
     display: flex;
     justify-content: space-around;
-    padding-left: 250px;
-    padding-right: 250px;
   }
 
   .footer h2,
@@ -237,8 +238,11 @@ h2 {
     width: 255px;
     height: 242px;
   }
-  .button1:hover,
+  .footer .button1:hover,
   .button2:hover {
-    background: rgb(255, 255, 255, 0.7);
+    background-color: #b18bdd;
+  }
+  .firstpart .button1:hover {
+    background: #71c0d4;
   }
 }
