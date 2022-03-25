@@ -29,7 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop
+![](./assets/Desktop_screenshot.png)
+
+Tablet
+![](./assets/ipad_screenshot.png)
+
+Mobile
+![](./assets/phone_screenshot.png)
 
 ### Links
 
@@ -102,14 +109,16 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mariem Bchir](https://goofy-easley-2c8717.netlify.app/index.html)
+
+- Frontend Mentor - [@Mabchir](https://www.frontendmentor.io/profile/Mabchir)
+
+- Github - [Mabchir](https://github.com/Mabchir)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Shoutout to the following member of Frontend Mentors whose feedback on my previous challenge was very helpful in making this challenge a success :
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@TheCoderGuru](https://www.frontendmentor.io/profile/grace-snow)

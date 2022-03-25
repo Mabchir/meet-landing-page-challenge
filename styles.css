@@ -171,7 +171,7 @@ h2 {
   color: var(--lightPurple);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .users {
     width: auto;
     height: auto;
