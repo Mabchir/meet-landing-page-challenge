@@ -224,6 +224,7 @@ h2 {
 @media screen and (min-width: 1440px) {
   .footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
   }
   .second_section h2 {
