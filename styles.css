@@ -178,7 +178,7 @@ h2 {
   color: var(--lightPurple);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 400px) and (max-width: 900px) {
   .users {
     width: auto;
     height: auto;
@@ -221,7 +221,11 @@ h2 {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width: 3840px) {
+  .users {
+    width: auto;
+    height: auto;
+  }
   .footer {
     display: flex;
     flex-direction: row;
@@ -229,6 +233,10 @@ h2 {
   }
   .second_section h2 {
     width: 445px;
+  }
+
+  .features {
+    width: 540px;
   }
   .footer h2,
   .footer p {
