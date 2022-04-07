@@ -120,8 +120,6 @@ What to do ? !
 
 - Github - [Mabchir](https://github.com/Mabchir)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 Shoutout to the following member of Frontend Mentors whose feedback on my previous challenge was very helpful in making this challenge a success :
